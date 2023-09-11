@@ -29,11 +29,10 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: var(--dark);
+  display: inline;
 }
   
-li {
-  float: center;
-}
+
 
 li a {
   display: block;
@@ -47,13 +46,13 @@ li a:hover {
   background-color: var(--back);
   color: white;
 }
-.active{
+li a.active{
   background-color: var(--main);
 }
 
 .card {
   width: 70%;
-  background-color: var(--back);
+  background-color: var(--main);
   margin: auto;
   color: #b2e9f9;
   padding: 30px;
