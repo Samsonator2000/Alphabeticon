@@ -2,15 +2,16 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    background-color: #064152;
+    background-color: #66d3f3;
 }
 header{
-    background-color: #02161b;
-    color: #66d3f3;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-
+  background-color: #02161b;
+  color: #66d3f3;
+  padding: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  font-size: 35px;
 }
 
 
@@ -22,14 +23,26 @@ ul {
     background-color: #333;
   }
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.card{
+  width: 70%;
+  background-color: #555;
+  margin: auto;
+  color: white;
   }
