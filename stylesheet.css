@@ -1,12 +1,19 @@
+:root{
+  --back: #064152;
+  --dark: #02161b;
+  --main: #b2e9f9;
+}
+
+
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    background-color: #064152;
+    background-color: var(--back);
 }
 header{
-  background-color: #02161b;
-  color: #66d3f3;
+  background-color: var(--dark);
+  color: var(--main);
   padding: 30px;
   padding-left: 20%;
   padding-right: 20%;
@@ -16,33 +23,37 @@ header{
 
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+  list-style-type: none;
+  width: 70%;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--dark);
+}
   
 li {
-  float: left;
+  float: center;
 }
 
 li a {
   display: block;
-  color: white;
+  color: var(--main);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #555;
+  background-color: var(--back);
   color: white;
+}
+.active{
+  background-color: var(--main);
 }
 
 .card {
   width: 70%;
-  background-color: #0d85a8;
+  background-color: var(--back);
   margin: auto;
   color: #b2e9f9;
   padding: 30px;
@@ -50,6 +61,6 @@ li a:hover {
 
 h3{
   text-align: center;
-  background-color: #02161b;
-  color: #66d3f3;
+  background-color: var(--dark);
+  color: var(--main);
 }
