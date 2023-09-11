@@ -42,7 +42,7 @@ li a:hover {
 
 .card{
   width: 70%;
-  background-color: #555;
+  background-color: white;
   margin: auto;
-  color: white;
+  color: red;
   }
