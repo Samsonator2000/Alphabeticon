@@ -34,6 +34,7 @@ ul {
 
 li {
   float: left;
+  width: 33.3333333333333333333%;
 }
 
 li a {
@@ -61,7 +62,7 @@ li a.active{
   padding: 5%;
 }
 
-h3{
+h3, h2{
   text-align: center;
   background-color: var(--dark);
   color: var(--main);
